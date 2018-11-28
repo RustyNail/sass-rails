@@ -14,7 +14,7 @@ gemfile:
 
 sudo: false
 cache: bundler
-
+install: bundle install --global --path vendor/bundle
 script: bundle exec rake test
 
 matrix:
